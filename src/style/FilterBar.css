@@ -1,0 +1,14 @@
+
+
+.filter-btn {
+    color: #fff;
+    background-color: #D90429;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    padding: 6px 12px;
+}
+
+.filter-btn:hover, .filter-btn:focus, .filter-btn:active {
+    background-color: #2B2D42;
+}
