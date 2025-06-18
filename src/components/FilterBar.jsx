@@ -10,14 +10,13 @@ export function Header() {
     )
 }
 
-
-export function Filter() {
+export function Filter({ onSelectCategory, onSelectView, currentView }) {
     return (
         <Container>
             <Container className='py-3 px-5'>
-                <button className='filter-btn me-3'>All</button>
-                <button className='filter-btn me-3'>Upcoming</button>
-                <button className='filter-btn me-3'>To day</button>
+                <button className='filter-btn me-3' onClick={() => onSelectView('All')}>All</button>
+                <button className='filter-btn me-3' onClick={() => onSelectView('Upcoming')}>Upcoming</button>
+                <button className='filter-btn me-3' onClick={() => onSelectView('Today')}>Today</button>
             </Container>
         </Container>
     )
