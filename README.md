@@ -84,8 +84,8 @@ src/
 
 ## 📸 Screenshots
   
-> ./screenshots/home.png
-> ./screenshots/add-task-form.png
+> (./screenshots/home.png)
+> (./screenshots/add-task-form.png)
 
 ---
 
