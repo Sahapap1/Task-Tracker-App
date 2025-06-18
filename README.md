@@ -85,7 +85,7 @@ src/
 ## 📸 Screenshots
 
 ![Task Tracker Screenshot](./screenshots/home.png)
-![Task Tracker Screenshot](./screenshots/add-task-form.png)
+![Task Tracker Screenshot](./screenshots/add_task_form.png)
 
 ---
 
