@@ -13,22 +13,18 @@ A simple and clean React application that helps users manage tasks, categorize t
   - Category (Work / Personal / Other)
   - Due date and time
 - 🗂️ Filter tasks by category
-- 🕒 Sort tasks by due date
 - ✏️ Edit or delete tasks
 - ☑️ Mark tasks as completed
 - 🔁 Data persistence with `localStorage`
-- 🌓 Light / Dark mode (optional)
-- 🔔 5-minute pre-alert notification (optional)
 
 ---
 
 ## 🛠️ Tech Stack
 
 - ⚛️ React (Functional Components & Hooks)
-- 🧠 React Hooks (`useState`, `useEffect`, `useRef`)
+- 🧠 React Hooks (`useState`, `useEffect`)
 - 💾 localStorage for data saving
 - 🎨 Bootstrap 5 (via npm)
-- 🧪 (Optional) Jest/React Testing Library for unit tests
 
 ---
 
@@ -36,7 +32,7 @@ A simple and clean React application that helps users manage tasks, categorize t
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/task-tracker-app.git
+git clone https://github.com/Sahapap1/task-tracker-app.git
 
 # 2. Navigate to the project directory
 cd task-tracker-app
@@ -59,6 +55,13 @@ src/
 │   ├── TaskItem.jsx        # Single task card
 │   ├── TaskList.jsx        # List of tasks
 │   └── FilterBar.jsx       # Category filters
+│   └── Modal.jsx
+│   └── Nav.jsx
+├── style/
+│   └── FilterBar.css
+│   └── Modal.css
+│   └── TaskForm.css
+│   └── TaskItem.css
 ├── utils/
 │   └── storage.js          # LocalStorage helper
 ├── App.jsx
@@ -71,7 +74,7 @@ src/
 ## 📌 Usage
 
 1. 📝 Add a task with a title, category, and due time.
-2. 🧹 View tasks in list format, sorted by time.
+2. 🧹 View tasks in list format.
 3. 🔍 Use the filter bar to see tasks in a selected category.
 4. ✅ Click to mark a task as complete.
 5. 🗑️ Delete or edit tasks at any time.
@@ -79,27 +82,10 @@ src/
 
 ---
 
-## ✨ Optional Features to Build
-
-- ⏰ 5-minute alerts before due time using `setInterval`
-- 📊 Stats: How many tasks completed today / week
-- 🌗 Light/Dark Mode toggle
-- 📥 Import / Export JSON file
-- 🔌 API integration using `json-server` or Firebase
-
----
-
 ## 📸 Screenshots
-
-> *(Add screenshots of UI here)*  
-> `./screenshots/home.png`  
-> `./screenshots/add-task.png`
-
----
-
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
+  
+> ./screenshots/home.png
+> ./screenshots/add-task-form.png
 
 ---
 
